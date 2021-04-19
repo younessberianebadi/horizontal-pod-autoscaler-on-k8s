@@ -46,7 +46,7 @@ spec:
 Then -if you're using minikube-, enable the metrics-addon using the command:
  
 ```sh
-[younesbe@node-1 ~]$ minikube addons enable metrics-server
+minikube addons enable metrics-server
 ```
 Then create the HPA using the command:
 
